@@ -1,5 +1,5 @@
 import axios from "axios";
-axios.defaults.baseURL = "http://20.81.134.47:8000/api/v1/";
+axios.defaults.baseURL = "https://tired-jade-lobster.cyclic.app/api/v1/";
 
 axios.interceptors.request.use(function (req) {
   const user = localStorage.getItem("user");
